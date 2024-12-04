@@ -12,7 +12,7 @@ Project repo: https://github.com/
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mchatbot python=3.8 -y
+conda create -n mchatbot python=3.10 -y
 ```
 
 ```bash
@@ -27,10 +27,6 @@ pip install -r requirements.txt
 
 ### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
 
-```ini
-PINECONE_API_KEY = "pcsk_7MsuTt_F3AiAHqqvMue6TdH3nwFNmxshqAqqNjff4Fkotx6fruGVV1vAWsjJcLTZ8hHzpi"
-PINECONE_API_ENV = "923a2c72-fd75-496d-a6a6-e977b360e862"
-```
 
 
 ### Download the quantize model from the link provided in model folder & keep the model in the model directory:
