@@ -1,0 +1,40 @@
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GenerativeAIProject"
+version = "0.0.0"
+authors = [
+    { name = "Ivan", email = "ivanmukunya6565@gmail.com" }
+]
+description = "A generative AI project"
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "flask",
+    "langchain",
+    "sentence-transformers>=2.6.0",
+    "torch",
+    "pypdf",
+    "python-dotenv",
+    "pinecone-client[grpc]",
+    "langchain_pinecone",
+    "langchain_community",
+    "langchain_openai",
+    "langchain_experimental",
+    "protobuf>=4.21.0",
+    "grpc-gateway-protoc-gen-openapiv2"
+]
+
+[project.urls]
+homepage = "https://yourhomepage.example.com"
+documentation = "https://yourdocs.example.com"
+source = "https://github.com/your-repo"
+
